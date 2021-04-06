@@ -1,5 +1,7 @@
 # the-next-web-clone
+
 Responsive Web Design
+
 <h2><b>Week 2 Media query project</b></h2>
 <hr>
 <p>The assignment is the Responsive Web Design</p>
@@ -28,4 +30,41 @@ Responsive Web Design
                          <li>Setup Linters in .github/workflows</li>
                       </ul>                             
                                                        
-<h3><b>Au⭐
+<<><b>Authors</b></>
+<hr>
+ 👤 Author<br>
+   
+<ul>
+  <li>GitHub: <a href="https://github.com/Debas-31">Debas Gebreslasie</a></li>
+  <li>Twitter: <a href="https://twitter.com/DEBSH76956492">Debas Gebreslasie</a></li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/debas-gebrengus-5256a2159/">Debas Gebreslasie</a></li>
+</ul  
+  
+ <hr>
+ 👤 Author<br>
+   
+<ul>
+  <li>GitHub: <a href="@chukwuemeka1234">Ani Victor Chukwuemeka</a></li>
+  <li>Twitter: <a href="@avc-victor">Ani Victor Chukwuemeka</a></li>
+  <li>LinkedIn: <a href="@Ani-chukwuemeka">Ani Victor Chukwuemeka</a></li>
+</ul   
+​
+<h3><b>Contributing</b></h3>
+<hr>
+Contributions, issues, and feature requests are welcome!<br>
+Feel free to check the<a href=""> issues</a> page.
+<hr>
+<h3><b>Show your support</b></h3>
+Give a ⭐️ if you like this project!<hr>
+​
+<h3><b>Acknowledgments</b></h3>
+<hr>
+<ul>
+  <li>Hat tip to anyone whose code was used</li>
+  <li>Inspiration etc</li>
+</ul>
+<br>
+<h3><b>License</b></h3>
+<hr>
+This project is MIT licensed.
+​

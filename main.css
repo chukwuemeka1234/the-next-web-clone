@@ -29,7 +29,7 @@ a {
   height: 18vh;
   width: 100%;
   flex-direction: column;
-  z-index: 3;
+  z-index: 7;
 }
 .header-nav-1 {
   height: 4vh;
@@ -69,4 +69,50 @@ a {
   width: 100%;
   background-color: rgb(240, 211, 48);
   font-size: 0.7rem;
+}
+.flex {
+  display: flex;
+}
+
+.highlights {
+  flex-direction: column;
+  height: 1000px;
+  margin: 0 10px;
+}
+
+.highlight,
+.sub-highlight {
+  height: 300px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  padding: 15px;
+}
+
+.opal {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url(./asset/highlight-1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.google {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url(./asset/highlight-2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mac {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url(./asset/highlight-3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.highlights h1,
+.highlights h2 {
+  margin-bottom: 20px;
+  color: #fff;
 }

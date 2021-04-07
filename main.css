@@ -101,7 +101,7 @@ main {
 .sub-content-info {
   margin-top: 20px;
   height: 35vh;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   flex-direction: column;
   justify-content: flex-end;
   color: #fff;
@@ -362,7 +362,7 @@ footer .fas {
   }
 
   .invisible-links a {
-    padding: 10px;
+    padding: 4px;
     color:#898888;
   }
 
@@ -391,14 +391,13 @@ footer .fas {
     height: 6vh;
     padding: 10px;
     font-size: 13px;
-
   }
   
   .content-container {
     flex-direction: row;
     height: 300px;
-    margin-top: 3px;
-  }
+    margin-top: 1px;
+  } 
 
   .content-info img {
     display: none;
@@ -408,6 +407,72 @@ footer .fas {
     margin-right: 10px;
     font-size: 13px;
     height: 250px;
+  } 
+
+  .sub-content-container {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sub-content-info {
+    font-size: 10px;
+    height: 130px;
+  } 
+
+  .content-info,
+  .sub-content-info {
+    margin-bottom: 0;
+  } 
+
+  .content-container h1,
+  .content-container h2 {
+    margin-bottom: 5px;
+  }
+
+  .funding-heading {
+    align-items: flex-start;
+  }
+
+  .funding-heading ul {
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
+
+  .funding-heading li {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1rem;
+    margin-bottom: 15px;
+    list-style-type: none;
+  }
+
+  .funding-heading #updates {
+    border-left: 1px #f42 solid;
+    border-right: 1px #f42 solid;
+  }
+
+  .funding-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box {
+    width: 32%;
+  }
+
+  .center-box a,
+  .bottom-box a {
+    font-size: 13px;
+  }
+
+  #third-box {
+    display: block;
+  }
+
+  #fourth-box {
+    display: none;
   }
 
 }

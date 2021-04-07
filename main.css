@@ -406,3 +406,85 @@ footer .fas {
     display: none;
   }
 }
+@media screen and (min-width: 1024px) {
+  .content-container {
+    height: 550px;
+    margin-top: 30px;
+  }
+  .content-info {
+    width: 70%;
+    height: 500px;
+    position: relative;
+  }
+  .gray {
+    font-size: 0.98rem;
+  }
+
+  .sub-content-container {
+    width: 30%;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .sub-content-info {
+    height: 245px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+
+  .content-info img {
+    display: block;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .content-info h1 {
+    font-size: 3.2rem;
+    line-height: 3rem;
+  }
+
+  .sub-content-info h2 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  .first-image {
+    background-image: linear-gradient(
+        rgba(255, 61, 61, 0.562),
+        rgba(0, 0, 0, 1)
+      ),
+      url(./img/Opal-image.PNG);
+    margin: 5px;
+  }
+  .date {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .funding-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .funding-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .funding-heading ul {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .box {
+    width: 24%;
+  }
+
+  #box-4 {
+    display: block;
+  }
+}

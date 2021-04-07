@@ -17,10 +17,6 @@ a {
   color: #fff;
 }
 
-/* ====================================================================================
-                   Design Mobile First 
-  ==================================================================================== */
-
 /* Styling for header section */
 
 .nav {
@@ -109,19 +105,19 @@ main {
 }
 
 .first-image {
-  background-image: linear-gradient(rgba(255,255,255, 0.2), rgba(0,0,0,1)), url(../img/opal-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/opal-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .second-image {
-  background-image: linear-gradient(rgba(255,255,255, 0.2), rgba(0,0,0,1)), url(../img/google-snip-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/google-snip-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .third-image {
-  background-image: linear-gradient(rgba(255,255,255, 0.2), rgba(0,0,0,1)), url(../img/detect-snip-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/detect-snip-image.png);
   background-size: cover;
   background-position: center;
 }
@@ -183,6 +179,7 @@ main {
   color: #f42;
   font-size: 12px;
 }
+
 .funding-heading h2 {
   color: #f42;
   font-size: 16px;
@@ -279,18 +276,17 @@ footer {
   display: inline;
   font-size: 7px;
   margin: 25px 8px 8px 10px;
- 
 }
 
 .footer-info a {
-  color:#898888;
+  color: #898888;
   font-weight: 700;
 }
 
 footer .fa,
 footer .fab,
 footer .fas {
- position: relative;
+  position: relative;
   height: 35px;
   padding: 11px;
   font-size: 0.9rem;
@@ -325,15 +321,15 @@ footer .fas {
   font-size: 10px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .nav {
     height: 25vh;
   }
+
   main {
-    padding-top:90px;
+    padding-top: 90px;
   }
+
   .header-nav-1 {
     height: 7vh;
     width: 100%;
@@ -347,7 +343,7 @@ footer .fas {
   .header-nav-1 a {
     padding: 10px;
   }
-  
+
   .header-nav-2 a {
     display: flex;
     justify-content: space-between;
@@ -363,17 +359,17 @@ footer .fas {
 
   .invisible-links a {
     padding: 4px;
-    color:#898888;
+    color: #898888;
   }
 
   .fa-search {
-   height: 13vh;
-   padding: 14px;
-   margin: 0;
+    height: 13vh;
+    padding: 14px;
+    margin: 0;
   }
 
   .fa-bars {
-    display: none;
+    visibility: hidden;
   }
 
   .invisible-links a:hover {
@@ -392,12 +388,12 @@ footer .fas {
     padding: 10px;
     font-size: 13px;
   }
-  
+
   .content-container {
     flex-direction: row;
     height: 300px;
     margin-top: 1px;
-  } 
+  }
 
   .content-info img {
     display: none;
@@ -408,7 +404,7 @@ footer .fas {
     margin-right: 10px;
     font-size: 13px;
     height: 250px;
-  } 
+  }
 
   .sub-content-container {
     height: 270px;
@@ -420,12 +416,12 @@ footer .fas {
   .sub-content-info {
     font-size: 10px;
     height: 130px;
-  } 
+  }
 
   .content-info,
   .sub-content-info {
     margin-bottom: 0;
-  } 
+  }
 
   .content-container h1,
   .content-container h2 {
@@ -463,11 +459,6 @@ footer .fas {
     width: 32%;
   }
 
-  .center-box a,
-  .bottom-box a {
-    font-size: 13px;
-  }
-
   #third-box {
     display: block;
   }
@@ -475,7 +466,6 @@ footer .fas {
   #fourth-box {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -484,7 +474,7 @@ footer .fas {
   }
 
   .content-info {
-    width:70%;
+    width: 70%;
     height: 500px;
     position: relative;
   }
@@ -548,12 +538,10 @@ footer .fas {
   }
 
   .box {
-    width:24%;
+    width: 24%;
   }
 
   #fourth-box {
     display: block;
   }
-
-
 }

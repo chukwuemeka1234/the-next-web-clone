@@ -5,11 +5,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* Intilaize list tag */
 body {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 a {
@@ -22,7 +26,6 @@ a {
   ==================================================================================== */
 
 /* Styling for header section */
-
 .nav {
   display: flex;
   position: fixed;
@@ -31,8 +34,8 @@ a {
   width: 100%;
   flex-direction: column;
   z-index: 7;
-}
 
+}
 .header-nav-1 {
   height: 4vh;
   width: 100%;
@@ -47,10 +50,14 @@ a {
   background-color: #fff;
 }
 
+.logo-image {
+  width: 60px;
+  height: 38px;
+}
+
 .invisible-links {
   display: none;
 }
-
 .fa-bars {
   color: #f00;
   padding: 0.7rem;
@@ -64,7 +71,6 @@ a {
   border-left: 0.5px solid #ccc;
   color: #ccc;
 }
-
 .header-nav-3 {
   display: flex;
   align-items: center;
@@ -74,6 +80,13 @@ a {
   background-color: rgb(240, 211, 48);
   font-size: 0.7rem;
 }
+
+.header-nav-3 a {
+  color: #000;
+}
+
+
+
 
 /* Highlight Section */
 
@@ -122,107 +135,10 @@ main {
   background-position: center;
 }
 
-.content-container h1,
+.content_container h1,
 .content-container h2, {
   margin-bottom: 20px;
   color: #fff;
 }
 
-/* Latest funding */
 
-.latest-funding {
-  padding: 10px;
-}
-
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.latest-funding,
-.funding-heading {
-  flex-direction: column;
-}
-
-.funding-heading ul {
-  flex-direction: column-reverse;
-  margin-top: 10px;
-}
-
-.funding-heading a,
-.funding-heading h2 {
-  color: #f42;
-}
-
-.box {
-  margin-bottom: 20px;
-}
-
-.top-box {
-  position: relative;
-  height: 100px;
-  background-color: #ffebe7;
-}
-
-.top-box img {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-.top-box p {
-  padding-left: 70px;
-  color: #000;
-}
-
-.top-box h4 {
-  padding: 10px 10px 10px;
-  background-color: #f42;
-  color: #fff;
-  text-align: center;
-}
-
-.top-box .value {
-  font-weight: bold;
-  font-size: 18px;
-  margin-top: 10px;
-  line-height: 1.4rem;
-}
-
-.top-box .text {
-  font-size: 11px;
-  line-height: 1.2rem;
-  color: #898888;
-}
-
-.center-box {
-  padding: 10px;
-  flex-direction: column;
-  background-color: #fffaf8;
-}
-
-.center-box a {
-  font-size: 13px;
-  padding: 7px 0;
-  color: #000;
-}
-
-.bottom-box {
-  border-top: 1px solid rgba(255, 68, 34, 0.25);
-  background-color: #fffaf8;
-  padding: 10px;
-}
-
-.bottom-box a {
-  font-size: 12px;
-}
-
-.bottom-box p {
-  color: #000;
-}
-
-.bottom-box span {
-  color: #898888;
-}

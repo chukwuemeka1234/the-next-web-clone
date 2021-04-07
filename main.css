@@ -126,9 +126,31 @@ main {
   background-position: center;
 }
 
-.content-container h1,
+.content-info img {
+  display: none;
+}
+
+.content-info .date {
+  display: none;
+}
+
+.content-container h1 {
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.content-info ul {
+  font-size: 9px;
+}
+
+.sub-content-info ul {
+  font-size: 9px;
+}
+
 .content-container h2 {
-  margin-bottom: 20px;
+  font-size: 11px;
+  margin-bottom: 10px;
   color: #fff;
 }
 
@@ -157,9 +179,13 @@ main {
   margin-top: 10px;
 }
 
-.funding-heading a,
+.funding-heading a {
+  color: #f42;
+  font-size: 12px;
+}
 .funding-heading h2 {
   color: #f42;
+  font-size: 16px;
 }
 
 .box {
@@ -233,4 +259,83 @@ main {
 
 .bottom-box span {
   color: #898888;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    height: 25vh;
+  }
+  main {
+    padding-top:90px;
+  }
+  .header-nav-1 {
+    height: 7vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .header-nav-1 a {
+    padding: 10px;
+  }
+  
+  .header-nav-2 a {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+  }
+
+  .invisible-links {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .invisible-links a {
+    padding: 10px;
+    color:#898888;
+  }
+
+  .fa-search {
+   height: 13vh;
+   padding: 14px;
+   margin: 0;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .invisible-links a:hover {
+    color: #000;
+  }
+
+  .header-nav-2 img {
+    display: none;
+    cursor: pointer;
+  }
+
+  .header-nav-3 {
+    display: flex;
+    justify-content: start;
+    height: 6vh;
+    padding: 10px;
+    font-size: 13px;
+
+  }
+  
+  .content-container {
+    flex-direction: row;
+    height: 300px;
+    margin-top: 3px;
+  }
+
+  .content-info img {
+    display: none;
+  }
+
 }

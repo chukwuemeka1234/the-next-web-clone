@@ -44,8 +44,17 @@ Responsive Web Design
   <li>GitHub: <a href="@chukwuemeka1234">Ani Victor Chukwuemeka</a></li>
   <li>Twitter: <a href="@avc-victor">Ani Victor Chukwuemeka</a></li>
   <li>LinkedIn: <a href="@Ani-chukwuemeka">Ani Victor Chukwuemeka</a></li>
+</ul 
+
+👤 Author <br> 
+
+<ul>
+  <li>GitHub: <a href="@debas-31">debas</a></li>
+  <li>Twitter: <a href="#"></a></li>
+  <li>LinkedIn: <a href="#"></a></li>
 </ul   
-​
+​ 
+
 <h3><b>Contributing</b></h3>
 <hr>
 Contributions, issues, and feature requests are welcome!<br>

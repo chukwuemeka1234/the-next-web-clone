@@ -404,4 +404,10 @@ footer .fas {
     display: none;
   }
 
+  .content-info {
+    margin-right: 10px;
+    font-size: 13px;
+    height: 250px;
+  }
+
 }

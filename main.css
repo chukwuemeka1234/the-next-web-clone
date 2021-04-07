@@ -365,13 +365,8 @@ footer .fas {
   }
 
   .invisible-links a {
-<<<<<<< HEAD
     padding: 10px;
     color: #898888;
-=======
-    padding: 4px;
-    color:#898888;
->>>>>>> 9bb1f9f172e2da58d9e2f68b2d3e35d7033f87e9
   }
 
   .fa-search {
@@ -405,7 +400,7 @@ footer .fas {
     flex-direction: row;
     height: 300px;
     margin-top: 1px;
-  } 
+  }
 
   .content-info img {
     display: none;
@@ -417,7 +412,6 @@ footer .fas {
     margin-top: 30px;
   }
   .content-info {
-
     width: 70%;
     height: 500px;
     position: relative;
@@ -445,7 +439,7 @@ footer .fas {
     position: absolute;
     top: 10px;
     left: 10px;
-}
+  }
 
   .content-info h1 {
     font-size: 3.2rem;

@@ -42,7 +42,7 @@ a {
 
 .header-nav-2 {
   display: flex;
-  height: 6vh;
+  height: 8vh;
   justify-content: space-between;
   background-color: #fff;
 }
@@ -69,16 +69,20 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 8vh;
+  height: 10vh;
   width: 100%;
   background-color: rgb(240, 211, 48);
   font-size: 0.7rem;
 }
 
+.header-nav-3 p {
+  color: #000;
+}
+
 /* Highlight Section */
 
 main {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .flex {
@@ -88,7 +92,7 @@ main {
 .content-container {
   display: flex;
   flex-direction: column;
-  height: 200vh;
+  height: 125vh;
   margin: 0 10px;
   padding-top: 20px;
 }
@@ -96,7 +100,7 @@ main {
 .content-info,
 .sub-content-info {
   margin-top: 20px;
-  height: 60vh;
+  height: 35vh;
   margin-bottom: 10px;
   flex-direction: column;
   justify-content: flex-end;
@@ -123,9 +127,13 @@ main {
 }
 
 .content-container h1,
-.content-container h2, {
+.content-container h2 {
   margin-bottom: 20px;
   color: #fff;
+}
+
+.content-container ul {
+  list-style-type: none;
 }
 
 /* Latest funding */

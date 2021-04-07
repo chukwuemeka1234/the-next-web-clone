@@ -462,7 +462,8 @@ footer .fas {
     display: block;
   }
 
-  #fourth-box {
+  #box-4 {
+    visibility: hidden;
     display: none;
   }
 }
@@ -540,7 +541,8 @@ footer .fas {
     width: 24%;
   }
 
-  #fourth-box {
+  #box-4 {
     display: block;
+    visibility: visible;
   }
 }

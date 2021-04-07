@@ -109,19 +109,22 @@ main {
 }
 
 .first-image {
-  background-image: linear-gradient(rgba(255,255,255, 0.2), rgba(0,0,0,1)), url(../img/opal-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url(../img/opal-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .second-image {
-  background-image: linear-gradient(rgba(255,255,255, 0.2), rgba(0,0,0,1)), url(../img/google-snip-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url(../img/google-snip-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .third-image {
-  background-image: linear-gradient(rgba(255,255,255, 0.2), rgba(0,0,0,1)), url(../img/detect-snip-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url(../img/detect-snip-image.png);
   background-size: cover;
   background-position: center;
 }
@@ -266,7 +269,7 @@ main {
     height: 25vh;
   }
   main {
-    padding-top:90px;
+    padding-top: 90px;
   }
   .header-nav-1 {
     height: 7vh;
@@ -281,7 +284,7 @@ main {
   .header-nav-1 a {
     padding: 10px;
   }
-  
+
   .header-nav-2 a {
     display: flex;
     justify-content: space-between;
@@ -297,13 +300,13 @@ main {
 
   .invisible-links a {
     padding: 10px;
-    color:#898888;
+    color: #898888;
   }
 
   .fa-search {
-   height: 13vh;
-   padding: 14px;
-   margin: 0;
+    height: 13vh;
+    padding: 14px;
+    margin: 0;
   }
 
   .fa-bars {
@@ -325,9 +328,8 @@ main {
     height: 6vh;
     padding: 10px;
     font-size: 13px;
-
   }
-  
+
   .content-container {
     flex-direction: row;
     height: 300px;
@@ -337,5 +339,53 @@ main {
   .content-info img {
     display: none;
   }
+}
+footer {
+  background-color: #000;
+}
 
+.bg-lighter {
+  background-color: #131313;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.bg-lighter li {
+  font-size: 12px;
+  margin: 25px 8px 8px 10px;
+}
+
+footer .fab,
+footer .fas {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #343434;
+  border: 2px solid #343434;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.footer-logo {
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer-logo a,
+.footer-logo img {
+  height: 0.6rem;
+  font-size: 13px;
+}
+
+.footer-logo p {
+  color: #898888;
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.stackpath {
+  color: #fff;
 }

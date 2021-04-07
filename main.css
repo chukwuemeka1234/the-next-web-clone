@@ -18,7 +18,7 @@ a {
 }
 
 /* ====================================================================================
-                   Design Mobile First 
+                   Design Mobile First
   ==================================================================================== */
 
 /* Styling for header section */
@@ -109,21 +109,24 @@ main {
 }
 
 .first-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url(../img/opal-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .second-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url(../img/google-snip-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .third-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url(../img/detect-snip-image.png);
   background-size: cover;
   background-position: center;
@@ -186,6 +189,7 @@ main {
   color: #f42;
   font-size: 12px;
 }
+
 .funding-heading h2 {
   color: #f42;
   font-size: 16px;
@@ -264,13 +268,76 @@ main {
   color: #898888;
 }
 
+/* Footer */
+footer {
+  background-color: #000;
+}
+
+.footer-info {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.footer-info li {
+  list-style-type: none;
+  display: inline;
+  font-size: 10px;
+  margin: 25px 8px 8px 10px;
+}
+
+.footer-info a {
+  color: #898888;
+  font-weight: 700;
+}
+
+footer .fa,
+footer .fab,
+footer .fas {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #343434;
+  border: 2px solid #343434;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.lower-footer {
+  justify-content: center;
+  padding: 30px;
+}
+
+.lower-footer a,
+.lower-footer img {
+  height: 0.9rem;
+  font-size: 13px;
+}
+
+.lower-footer p {
+  color: #898888;
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.stackpath {
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     height: 25vh;
   }
+
   main {
     padding-top: 90px;
   }
+
   .header-nav-1 {
     height: 7vh;
     width: 100%;
@@ -339,53 +406,4 @@ main {
   .content-info img {
     display: none;
   }
-}
-footer {
-  background-color: #000;
-}
-
-.bg-lighter {
-  background-color: #131313;
-  flex-direction: column;
-  align-items: center;
-  padding: 25px;
-}
-
-.bg-lighter li {
-  font-size: 12px;
-  margin: 25px 8px 8px 10px;
-}
-
-footer .fab,
-footer .fas {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-  font-size: 0.9rem;
-  color: #fff;
-  background-color: #343434;
-  border: 2px solid #343434;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.footer-logo {
-  justify-content: center;
-  padding: 30px;
-}
-
-.footer-logo a,
-.footer-logo img {
-  height: 0.6rem;
-  font-size: 13px;
-}
-
-.footer-logo p {
-  color: #898888;
-  font-size: 13px;
-  margin: 0 5px;
-}
-
-.stackpath {
-  color: #fff;
 }

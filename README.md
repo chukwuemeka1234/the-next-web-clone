@@ -30,7 +30,7 @@ Responsive Web Design
 
 ## Live Demo
 
-[Live Demo Link](https://chukwuemeka1234.github.io/the-next-web-clone/)                                                     
+[Live Demo Link](https://chukwuemeka1234.github.io/the-next-web-clone)                                                     
 <hr>
  👤 Author<br>
    

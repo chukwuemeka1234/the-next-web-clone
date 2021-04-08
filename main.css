@@ -105,19 +105,19 @@ main {
 }
 
 .first-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(./img/opal-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/opal-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .second-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(./img/google-snip-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/google-snip-image.png);
   background-size: cover;
   background-position: center;
 }
 
 .third-image {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(./img/detect-snip-image.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/detect-snip-image.png);
   background-size: cover;
   background-position: center;
 }
@@ -544,7 +544,7 @@ footer .fas {
   }
 
   .first-image {
-    background-image: linear-gradient(to right bottom, rgba(255, 61, 61, 0.8), rgba(0, 0, 0, 0.8)), url(../img/opal-image.png);
+    background-image: linear-gradient(to right bottom, rgba(255, 61, 61, 0.8), rgba(0, 0, 0, 0.8)), url(img/opal-image.png);
   }
 
   .content-info .date {

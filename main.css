@@ -306,14 +306,16 @@ footer .fas {
 
 .lower-footer a,
 .lower-footer img {
-  height: 0.9rem;
-  font-size: 13px;
+  height: 1.9rem;
+  font-size: 15px;
+  margin-top: 1px;
 }
 
 .lower-footer p {
   color: #898888;
-  font-size: 8px;
+  font-size: 7px;
   margin: 0 5px;
+  padding: 7px;
 }
 
 .stackpath {
@@ -465,6 +467,30 @@ footer .fas {
   #box-4 {
     visibility: hidden;
     display: none;
+  }
+
+  .lower-footer {
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+  }
+  
+  .lower-footer a,
+  .lower-footer img {
+    height: 2.2rem;
+    font-size: 16px;
+  }
+  
+  .lower-footer p {
+    color: #898888;
+    font-size: 14px;
+    height: 3.9rem;
+    padding: 7px;
+  }
+  
+  .stackpath {
+    color: #fff;
+    font-size: 19px;
   }
 }
 

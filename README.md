@@ -27,7 +27,10 @@ Responsive Web Design
 <h4><b>Setup:</b></h4><ul>
                          <li>Setup Linters in .github/workflows</li>
                       </ul>                             
-                                                       
+
+## Live Demo
+
+[Live Demo Link](https://chukwuemeka1234.github.io/the-next-web-clone/)                                                     
 <hr>
  👤 Author<br>
    

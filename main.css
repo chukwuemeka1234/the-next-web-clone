@@ -38,9 +38,13 @@ a {
 
 .header-nav-2 {
   display: flex;
-  height: 8vh;
+  height: 7vh;
   justify-content: space-between;
   background-color: #fff;
+}
+
+.logo-image {
+  height: 100%;
 }
 
 .invisible-links {
@@ -59,6 +63,7 @@ a {
   border-right: 0.5px solid #ccc;
   border-left: 0.5px solid #ccc;
   color: #ccc;
+  height: 100%;
 }
 
 .header-nav-3 {
@@ -365,9 +370,13 @@ footer .fas {
   }
 
   .fa-search {
-    height: 13vh;
+    height: 17vh;
     padding: 14px;
     margin: 0;
+  }
+
+  .flex-1 {
+    flex: 1;
   }
 
   .fa-bars {
@@ -378,9 +387,9 @@ footer .fas {
     color: #000;
   }
 
+  .header-nav-2 .logo-wrap, 
   .header-nav-2 img {
     display: none;
-    cursor: pointer;
   }
 
   .header-nav-3 {

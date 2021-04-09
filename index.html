@@ -13,48 +13,51 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <div class="header-nav-1">
-                <div class="links-left">
-                    <a href="#"><span class="white-text">News</span></a>
-                    <a href="#">Events</a>
-                    <a href="#">Business</a>
-                    <a href="#">AMAs</a>
-                    <a href="#">Spaces</a>
-                    <a href="#">Terms & Condition</a>
-                </div>
-                <div class="links-right">
-                    <a href="#">About</a>
-                    <a href="#">Advertise</a>
-                    <a href="#">Jobs</a>
-                    <a href="#">Contact</a>
-                </div>
-            </div>
-            <div class="header-nav-2">
-                <div class="logo-wrap"><img class="logo-image" src="img/tnw-logo.png" alt="logo-image"></div>
-                <span class="invisible-links">
-                    <a href="#">LATEST</a>
-                    <a href="#">HARD FORK</a>
-                    <a href="#">PLUGGED</a>
-                    <a href="#">README</a>
-                    <a href="#">GROWTH QUARTERS</a>
-                </span>
-                <div class="">
-                    <a href="#"><i class="fas fa-search"></i></a>
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </div>
-            </div>
-            <div class="header-nav-3">
-                <a href="">
-                    <p>
-                        Calling young digital talent in the Netherlands. be recognzed in the T500 <i
-                            class="fas fa-arrow-right"></i>
-                    </p>
-                </a>
-            </div>
-        </nav>
-    </header>
-    <main>
+		<nav class="flex">
+		  	<div class="header-nav-1 flex">
+				<nav>
+			  		<ul class="flex mid">
+						<li><a href="#">News</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">AMAs</a></li>
+						<li><a href="#">Spaces</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+			  		</ul>
+				</nav>
+			<nav>
+			  	<ul class="flex mid">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Advertise</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Contact</a></li>
+			  	</ul>
+			</nav>
+		  	</div>
+
+		  	<div class="flex header-nav-2">
+			  	<a class="logo-img" >
+					<img class="logo-img"  src="img/tnw-logo.png" alt="TNW logo">
+				  </a>
+			  		<ul class="flex btm">
+						<li><a href="#">LATEST</a></li>
+						<li><a href="#">HARD FORK</a></li>
+						<li><a href="#">PLUGGED</a></li>
+						<li><a href="#">README</a></li>
+						<li><a href="#">GROWTH QUARTERS</a></li>
+			  		</ul>
+				<div class="flex btm links">
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="#"><i class="fas fa-bars"></i></a>
+				</div>          
+		  	</div>
+
+		  	<div class="flex header-nav-3">
+			<a href="#"><p>Calling young digital talent in the Netherlands - Be recognized in the T500 →</p></a>
+		  		</div>
+		</nav>
+	</header>
+     <main>
         <section class="content-container flex">
             <div class="content-info first-image flex flex-1">
                 <a href="#"><img src="img/logo-transparent.png" alt="big logo"></a>
@@ -85,7 +88,6 @@
                 </div>
             </div>
         </section>
-        <br>
         <section class="latest-funding flex wraper">
             <nav class="funding-heading flex">
                 <a href="#"><h2>Latest funding rounds on Index.co &gt;</h2></a>
@@ -169,9 +171,7 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="box" id="box-4">
-
                     <div class="top-box">
                         <img src="img/funding-img-4.jpg" alt="Wolt">
                         <a href="#">
@@ -199,32 +199,30 @@
         </section>
     </main>
     <footer>
-        <div class="footer-info ">
-            <div class="flex">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram-square"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa fa-rss"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-            </div>
-            <div class="footer-links">
-                <ul>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">ADVERTISE</a></li>
-                    <li><a href="#">JOBS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+        <div class="bg-lighter flex ">
+          <div class="flex">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fas fa-rss"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+          <div>
+            <ul class="flex footer-links">
+              <li><a href="#">EVENTS</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">ADVERTISE</a></li>
+              <li><a href="#">JOBS</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="lower-footer flex">
-            <a href="#"><img src="img/tnw-logo.png" alt="footer logo"></a>
-            <p>&copy; 2006-2021 The Next Web B.V. Made with &lt;3 in Amsterdam. Powered by</p><a href="#"><strong
-                    class="stackpath">STACKPATH</strong></a>
+        <div class="flex footer-logo">
+          <a href="#"><img src="img/tnw-logo-footer.jpg" alt="footer"></a><p>&copy; 2006-2021 The Next Web B.V. Made with &lt;3 in Amsterdam. Powered by</p><a href="#"><strong class="stackpath">STACKPATH</strong></a>
         </div>
-    </footer>
+      </footer>
 
 </body>
 

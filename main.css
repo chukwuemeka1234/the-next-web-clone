@@ -790,4 +790,50 @@ footer .fas {
     display: block;
     visibility: visible;
   }
+
+  .categories {
+    justify-content: space-between;
+  }
+
+  .category {
+    width: 32%;
+  }
+
+  .categories #third-category {
+    display: flex;
+  }
+
+  .top-category {
+    height: 240px;
+  }
+
+  .top-category h3 {
+    font-size: 16px;
+  }
+
+  .center-category h5 {
+    font-size: 14px;
+  }
+
+  .bottom-category li {
+    font-size: 13px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .sub-news h4 {
+    font-size: 14px;
+  }
+
+  .news img {
+    height: 130px;
+  }
+
+  .deals h4 {
+    margin-top: 20px;
+  }
 }

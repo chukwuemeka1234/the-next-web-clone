@@ -6,7 +6,7 @@ Responsive Web Design
 <hr>
 <p>The assignment is the Responsive Web Design</p>
 <hr>
-<img src="/img/the-next-web-screen-shoot.JPG">
+<img src="../img/the-next-web-screen-shoot.JPG">
 <br>
 <p>The general purpose of the project was to practice Media query rules</p><br>
 <h3><b>Built with</b></h3>

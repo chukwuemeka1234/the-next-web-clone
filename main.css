@@ -341,6 +341,10 @@ footer .fas {
   margin: 20px 0;
 }
 
+.news h2:hover {
+  color: #000;
+}
+
 .news img {
   height: 60px;
   width: 90px;
@@ -367,7 +371,7 @@ footer .fas {
   font-size: 12px;
   color: #898888;
 }
-
+  
 .news .latest-heading {
   flex-direction: row;
   justify-content: space-between;
@@ -381,6 +385,24 @@ footer .fas {
 .deals ul {
   color: var(--darkColor);
   font-size: 0.8rem;
+}
+
+.latest-heading a {
+  color: #f42;
+}
+
+.latest-heading a:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.grid-container h4:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.grid-container a:hover {
+  color: #000;
 }
 
 .strike-through {

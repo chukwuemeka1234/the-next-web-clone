@@ -6,7 +6,7 @@ Responsive Web Design
 <hr>
 <p>The assignment is the Responsive Web Design</p>
 <hr>
-<img src="img/the-next-web-screen-shoot.JPG">
+<img src="/img/the-next-web-screen-shoot.JPG">
 <br>
 <p>The general purpose of the project was to practice Media query rules</p><br>
 <h3><b>Built with</b></h3>
@@ -47,16 +47,7 @@ Responsive Web Design
   <li>GitHub: <a href="@chukwuemeka1234">Ani Victor Chukwuemeka</a></li>
   <li>Twitter: <a href="@avc-victor">Ani Victor Chukwuemeka</a></li>
   <li>LinkedIn: <a href="@Ani-chukwuemeka">Ani Victor Chukwuemeka</a></li>
-</ul 
-
-👤 Author <br> 
-
-<ul>
-  <li>GitHub: <a href="@debas-31">debas</a></li>
-  <li>Twitter: <a href="#"></a></li>
-  <li>LinkedIn: <a href="#"></a></li>
-</ul   
-​ 
+</ul ​ 
 
 <h3><b>Contributing</b></h3>
 <hr>

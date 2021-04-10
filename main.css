@@ -443,7 +443,6 @@ footer .fas {
 }
 
 .bg-1 {
-<<<<<<< HEAD
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(/img/categories-1.jpg);
 }
 
@@ -453,17 +452,6 @@ footer .fas {
 
 .bg-3 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(/img/categories-3.jpg);
-=======
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/categories-1.jpg);
-}
-
-.bg-2 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/categories-2.jpg);
-}
-
-.bg-3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(img/categories-3.jpg);
->>>>>>> a07565d16dc9a7013b18d5f20fe220c5c420aad9
 }
 
 .top-category p {

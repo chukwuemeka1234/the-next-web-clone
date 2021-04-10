@@ -47,7 +47,7 @@ nav {
 }
 
 main {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .header-nav-1,
@@ -292,20 +292,21 @@ footer {
 
 .bg-lighter li {
   font-size: 12px;
-  margin: 25px 8px 8px 10px;
+  margin: 25px 10px 8px 5px;
 }
 
 footer .fab,
 footer .fas {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
   font-size: 0.9rem;
   color: #fff;
   background-color: #343434;
   border: 2px solid #343434;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 11px;
+  margin-left: 5px;
 }
 
 .footer-logo {
